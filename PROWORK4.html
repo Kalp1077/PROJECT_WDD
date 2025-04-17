@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Ansel Adams</title>
+        <link rel="stylesheet" href="PROWORK4.css">
+
+        <script>
+
+            window.onload=function()
+            {
+                document.querySelectorAll('.gallery .box').forEach(box =>{
+                    box.onclick = () =>{
+                        document.querySelector('.pop-up').style.display = 'block';
+                        document.querySelector('.pop-up').style.backgroundImage=box.style.backgroundImage;
+                    }
+                });
+
+                document.querySelector('.pop-up span').onclick = () =>{
+                       document.querySelector('.pop-up').style.display = 'none';
+                }
+            }
+        </script>
+
+    </head>
+
+    <body>
+      
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="Home.html #path">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container-1">   
+             <div class="rec">  
+                   <img src="./Ansel-adams/Ansel_Adams_and_camera.jpg"/><hr>
+                  <h1>Ansel Adams</h1>
+            </div>
+        
+            <div class="right-box">
+             <div class="right-side">
+               <p><u>Born:</u> 20 February 1902, Western Addition, San Francisco, California, United States                                                               <br>
+                  <u>Died:</u> 22 April 1984 (age 82 years), Bariatric Surgery Center at Community Hospital of the Monterey Peninsula, Monterey, California, United States<br>
+                  <u>Children:</u> Anne Adams, Michael Adams                                                                                                              <br> 
+                  <u>Spouse:</u> Virginia Best (m. 1928-1984)                                                                                                             <br> 
+                  <u>Awards:</u> Presidential Medal of Freedom, Hasselblad Award                                                                                          <br>
+                  <u>Full name:</u> Ansel Easton Adams                                                                                                                    <br> 
+        
+             </div>
+            </div> 
+       
+         </div> 
+
+           
+           
+        <div class="container">
+            <div class="text">
+              <h3>ANSEL's ART-GALLERY</h3>
+              <p>Photography is more than a medium for factual communication of ideas. It is a creative art for Photographers</p>
+            </div>
+            <div class="gallery">             
+                <div class="box row-2" style="background-image: url(./Ansel-adams/nathan-anderson-ZjOQmOOWmGs-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Ansel-adams/joseph-barrientos-oQl0eVYd_n8-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Ansel-adams/v2osk-1Z2niiBPg5A-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./Ansel-adams/filip-zrnzevic-_EMkxLdko9k-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./Ansel-adams/edwards-lee-nYwfKdzB_Ds-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Ansel-adams/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./Ansel-adams/wonderhunt-uSX8UoDBXxQ-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./Ansel-adams/damiano-baschiera-d4feocYfzAM-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Ansel-adams/freysteinn-g-jonsson-6AXFYOOtY3k-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./Ansel-adams/clarisse-meyer-hbOZY0gppaY-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Ansel-adams/claudel-rheault-ZVbv1akA-l4-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Ansel-adams/wonderhunt-MzywBEbQFqE-unsplash.jpg)"></div>
+            </div>
+
+            <div class="pop-up">
+                <span>&times;</span>
+            </div>
+        </div>
+        
+    </body>
+</html>

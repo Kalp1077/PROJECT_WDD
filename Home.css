@@ -1,0 +1,364 @@
+*
+{
+    margin: 0;
+}
+
+.line
+{
+    background-color: #D6D5A8;
+    height: 2px;
+    box-shadow: 0 0 20px white;
+} 
+
+.line1
+{
+    background-color: #D6D5A8;
+    height: 2px;
+    box-shadow: 0 0 20px white;
+} 
+
+.t1logo
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.harsak img
+{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #D6D5A8;
+    cursor: pointer;
+    transition: all 1.5s ease-in;
+}
+
+.harsak img:hover
+{
+    transform: rotate(360deg);
+}
+
+.image 
+{
+    height: 70vh;
+    background-image: url("mountains-3324569_1920.jpg");
+    background-size: cover;
+    box-shadow: 0 0 6px #9EC6F3;
+}
+
+.harsak1 img
+{
+    height: 17vh;
+    width: 8.5vw;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #D6D5A8;
+    cursor: pointer;
+}
+
+.ap
+{
+    padding-top: 140px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    line-height: 40px;
+}
+
+#element
+{
+    color:  #efc977;
+}
+
+body
+{
+    background: #183D3D;
+}
+
+.t1
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+p
+{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.dropdown
+{
+    display: none;
+}
+
+#home:hover .dropdown
+{
+    display: block;
+    position: absolute;
+    right: 180px;
+    background-color: #FBF3B9;
+}
+
+.dropdown ul
+{
+    display: block;
+    padding: 0;
+}
+
+.dropdown ul li
+{
+    padding: 0px;
+}
+
+header
+{
+    background-color: #FBF3B9;
+    height: 54.5px; 
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 13px #9EC6F3;
+}
+
+nav ul  
+{
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li 
+{
+    margin-left: 15px;
+    margin-right: 17px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    list-style: none;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav ul li a:hover
+{
+     color: #e4460d;  
+} 
+ 
+ .rec
+{
+     margin-top: 50px;
+     margin-bottom: 90px;
+}
+
+#art
+{
+    display: flex;
+    padding-top: 57px;
+    padding-bottom: 70px;
+}
+
+#photo
+{
+    display: flex;
+    padding-top: 50px;
+}
+
+@media(max-width: 750px)
+{
+    .rec
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #art
+    {
+        display: block;
+    }
+    
+    #photo
+    {
+        display: block;
+    }
+
+    #path
+    {
+        height: 70vh;
+    }
+
+}
+
+.artist
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.artist a
+{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.artist a img
+{
+    transition: all 0.2s ease-in;
+    height: 50vh;
+    width: 23vw;
+}
+
+.artist a img:hover
+{
+    transform: scale(1.1);
+}
+
+h1
+{
+    padding-top: 30px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+#path
+{
+    cursor: pointer;
+    min-height: 50vh;
+    background: linear-gradient(to bottom,#FBF3B9,#9EC6F3); 
+    box-shadow: 0 0 13px #9EC6F3;  
+}
+
+.end
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 40px;
+}
+
+.end img
+{
+    height: 5vh;
+    width: 2.8vw;
+    border-radius: 5px;
+    transition: all 1.5s ease-in;
+}
+
+.end img:hover
+{
+    transform: rotate(360deg);
+}
+
+.t3
+{
+   text-align: center;
+   color: #063347;
+   font-size: 30px;
+   font-weight: bold;
+   padding-top: 25px;
+}
+
+.t4
+{
+    text-align: center;
+    color: #1a323c;
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.mail img
+{
+    height: 5vh;
+    width:2.8vw;
+    border-radius: 5px; 
+    transition: all 1.5s ease-in;
+}
+
+.mail img:hover
+{
+    transform: rotate(360deg);
+}
+
+.t5
+{
+    padding-top: 2px;
+    padding-left: 7px;
+    color: red;
+    font-size: 20px;
+}
+
+.mail
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.contact img
+{
+    height: 5vh;
+    width:2.8vw;
+    border-radius: 5px; 
+    margin-left: 15px; 
+    transition: all 1.5s ease-in;
+}
+
+.contact img:hover
+{
+    transform: rotate(360deg);
+}
+
+.t6
+{
+    padding-top: 2px;
+    padding-left: 7px;
+    color: black;
+    font-size: 20px;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.t7
+{
+    color: #1a323c;
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.team
+{
+    color: #d22e7b;
+}
+
+.img img
+{
+    height: 5.1vh;
+    width:2.7vw;
+    padding-left: 10px;
+    padding-top: 23px;
+}
+
+
+

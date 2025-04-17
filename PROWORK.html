@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Pablo Picasso</title>
+        <link rel="stylesheet" href="PROWORK.css">
+
+        <script>
+
+            window.onload=function()
+            {
+                document.querySelectorAll('.gallery .box').forEach(box =>{
+                    box.onclick = () =>{
+                        document.querySelector('.pop-up').style.display = 'block';
+                        document.querySelector('.pop-up').style.backgroundImage=box.style.backgroundImage;
+                    }
+                });
+
+                document.querySelector('.pop-up span').onclick = () =>{
+                       document.querySelector('.pop-up').style.display = 'none';
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="Home.html #path">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+     
+    <div class="container-1">   
+      <div class="rec">  
+            <img src="21c73d_94a52ac645424363872e535144078903~mv2.jpg"/><hr>
+           <h1>Pablo Picasso</h1>
+     </div>
+
+     <div class="right-box">
+      <div class="right-side">
+        <p><u>Born:</u> 25 October 1881, Málaga, Spain   <br>
+           <u>Died:</u> 8 April 1973 (age 91 years), Mougins, France      <br>
+           <u>Periods:</u> Cubism, Modern art, Surrealism, Picasso's Blue Period, Modernism    <br>
+           <u>Influenced by:</u> Vincent van Gogh, Paul Cézanne, Diego Velázquez, Francisco Goya      <br>
+           <u>Full name:</u> Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso   <br>
+           <u>Education:</u> San Fernando Fine Art Royal Academy</p>
+      </div>
+     </div> 
+
+    </div> 
+     
+    
+        <div class="container">
+            <div class="text">
+              <h3>PABLO's ART-GALLERY</h3>
+              <p>The aim of the art is not only to represent the outward appearance of things and whatever, but their inward significance.</p>
+            </div>
+            <div class="gallery">
+                <div class="box row-2" style="background-image: url(birmingham-museums-trust-RXCMQFUo9Hk-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(birmingham-museums-trust-JZdPBgU6Nik-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(birmingham-museums-trust-HEEvYhNzpEo-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(birmingham-museums-trust-_sn71oyTN4o-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(birmingham-museums-trust-sJr8LDyEf7k-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(birmingham-museums-trust-l0PpYGC_YyM-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(birmingham-museums-trust-pxMaBQX2AIs-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(birmingham-museums-trust-BPWZ01FtySg-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(birmingham-museums-trust-oeUzg8czQ3Y-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(birmingham-museums-trust-j4dEz8IHIhs-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(birmingham-museums-trust-wKlHsooRVbg-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(birmingham-museums-trust-5EUh-tq31eA-unsplash.jpg)"></div>
+            </div>
+
+            <div class="pop-up">
+                <span>&times;</span>
+            </div>
+        </div>
+
+    </body>   
+</html>
+
+  

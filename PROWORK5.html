@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Brian Skerry</title>
+        <link rel="stylesheet" href="PROWORK5.css">
+
+        <script>
+
+            window.onload=function()
+            {
+                document.querySelectorAll('.gallery .box').forEach(box =>{
+                    box.onclick = () =>{
+                        document.querySelector('.pop-up').style.display = 'block';
+                        document.querySelector('.pop-up').style.backgroundImage=box.style.backgroundImage;
+                    }
+                });
+
+                document.querySelector('.pop-up span').onclick = () =>{
+                       document.querySelector('.pop-up').style.display = 'none';
+                }
+            }
+        </script>
+
+    </head>
+
+    <body>
+      
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="Home.html #path">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container-1">   
+             <div class="rec">  
+                   <img src="./Brian-skerry/MZ3437_180508_3030-1200.jpg"/><hr>
+                  <h1>Ansel Adams</h1>
+            </div>
+        
+            <div class="right-box">
+             <div class="right-side">
+               <p><u>Born:</u> 27 September 1961 (age 63 years), Milford, Massachusetts, United States               <br>
+                  <u>Known for:</u> National Geographic photography                                                  <br> 
+                  <u>Education:</u> Worcester State University, Quinsigamond Community College                       <br> 
+                  <u>Awards:</u> Primetime Emmy Award; 2021 Outstanding Documentary or Nonfiction Series - Producer  <br>                                                                                                                <br> 
+        
+             </div>
+            </div> 
+       
+         </div> 
+
+           
+           
+        <div class="container">
+            <div class="text">
+              <h3>BRIAN's ART-GALLERY</h3>
+              <p>photography is the simplest thing in the whole world, but it is incredibly complicated to make it really work.</p>
+            </div>
+            <div class="gallery">             
+                <div class="box row-2" style="background-image: url(./Brian-skerry/francesco-ungaro-Wvd6xf3Jms0-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Brian-skerry/29221-51-MM6898_0027-comp.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Brian-skerry/sophia-muller-loP8xxkZIk8-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./Brian-skerry/pyvovarova_yevheniia8-zYB5sAxoDs4-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./Brian-skerry/francesco-ungaro-9EgXJSCgzeA-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Brian-skerry/jonas-allert-tFo8TAJ4Lp8-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./Brian-skerry/mael-balland-xdob9hD9AWE-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./Brian-skerry/david-courbit-9XzyEzPAHMI-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Brian-skerry/hiroko-yoshii-jTnTN9KvCAw-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./Brian-skerry/maurice-sahl-oG0uNQ_3Qck-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Brian-skerry/romain-gille-MYnhW-AYmQM-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./Brian-skerry/franzwa-0z3eN4odW-M-unsplash.jpg)"></div>
+            </div>
+
+            <div class="pop-up">
+                <span>&times;</span>
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Aishwarya Sridhar</title>
+        <link rel="stylesheet" href="PROWORK3.css">
+
+        <script>
+
+            window.onload=function()
+            {
+                document.querySelectorAll('.gallery .box').forEach(box =>{
+                    box.onclick = () =>{
+                        document.querySelector('.pop-up').style.display = 'block';
+                        document.querySelector('.pop-up').style.backgroundImage=box.style.backgroundImage;
+                    }
+                });
+
+                document.querySelector('.pop-up span').onclick = () =>{
+                       document.querySelector('.pop-up').style.display = 'none';
+                }
+            }
+        </script>
+        
+    </head>
+
+    <body>
+      
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="Home.html #path">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container-1">   
+             <div class="rec">  
+                   <img src="./aishwarya-sridhar/Aishwariya-3.png"/><hr>
+                  <h1>Aishwarya</h1>
+            </div>
+        
+            <div class="right-box">
+             <div class="right-side">
+               <p><u>Born:</u> 12 January 1997(age 28 years)Mumbai, India                                            <br>
+                  <u>Nationality:</u> Indian                                            <br>  
+                  <u>Education:</u>	Bachelor of Mass Media                              <br>
+                  <u>Alma mater:</u> Dr Pillai Global Academy, Pillai College of Arts,  <br> 
+                                     Commerce and Science                               <br>
+                  <u>Occupation:</u> Wildlife photographer and filmmaker             <br>
+                  <u>Notable work:</u> Panje-The Last Wetland The Queen of Taru         <br>
+                  <u>Parents:</u> Sridhar Ranganathan (father), Rani Sridhar (mother)                                    
+        
+             </div>
+            </div> 
+       
+         </div> 
+
+           
+           
+        <div class="container">
+            <div class="text">
+              <h3>AISHWARYA's ART-GALLERY</h3>
+              <p>When words become uncertain,undefined and unclear, I shall to be content with silence and focus with photographs.</p>
+            </div>
+            <div class="gallery">             
+                <div class="box row-2" style="background-image: url(./aishwarya-sridhar/premium_photo-1694270553677-22680efa4d56.jpeg)"></div>
+                <div class="box col-2" style="background-image: url(./aishwarya-sridhar/46486383192_4d926ea79b_z.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./aishwarya-sridhar/Pole_1603268429996.webp)"></div>
+                <div class="box row-2" style="background-image: url(./aishwarya-sridhar/Blackbuck-866x1313.webp)"></div>
+                <div class="box row-2" style="background-image: url(./aishwarya-sridhar/photo-1575550959106-5a7defe28b56.jpeg)"></div>
+                <div class="box col-2" style="background-image: url(./aishwarya-sridhar/maxresdefault.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./aishwarya-sridhar/GettyImages-1044891694-scaled-1.webp)"></div>
+                <div class="box row-2" style="background-image: url(./aishwarya-sridhar/a7a6b8f33ddf68f067b63e28716ae359.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./aishwarya-sridhar/pandas-eating-bamboo.webp)"></div>
+                <div class="box row-2" style="background-image: url(./aishwarya-sridhar/images.jpeg)"></div>
+                <div class="box col-2" style="background-image: url(./aishwarya-sridhar/46486285422_9bf003e03a_z.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./aishwarya-sridhar/image1170x530cropped.jpg)"></div>
+            </div>
+
+            <div class="pop-up">
+                <span>&times;</span>
+            </div>
+        </div>
+        
+    </body>
+</html>

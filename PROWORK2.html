@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Yayoi Kusama</title>
+        <link rel="stylesheet" href="PROWORK2.css">
+
+        <script>
+
+            window.onload=function()
+            {
+                document.querySelectorAll('.gallery .box').forEach(box =>{
+                    box.onclick = () =>{
+                        document.querySelector('.pop-up').style.display = 'block';
+                        document.querySelector('.pop-up').style.backgroundImage=box.style.backgroundImage;
+                    }
+                });
+
+                document.querySelector('.pop-up span').onclick = () =>{
+                       document.querySelector('.pop-up').style.display = 'none';
+                }
+            }
+        </script>
+
+    </head>
+
+    <body>
+      
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="Home.html #path">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container-1">   
+             <div class="rec">  
+                   <img src="./yayoi-kusama/Yayoi_Kusama_201611-681x1024.jpg"/><hr>
+                  <h1>Yayoi Kusama</h1>
+            </div>
+        
+            <div class="right-box">
+             <div class="right-side">
+               <p><u>Born:</u> 22 March 1929 (age 96 years), Matsumoto, Nagano, Japan                                                    <br>
+                  <u>Periods:</u> Contemporary art, Pop art, Minimalism, Feminist art, Environmental art                                 <br> 
+                  <u>Children:</u> Isao Takakura                                                                                         <br> 
+                  <u>Education:</u> Kyoto City University of Arts, Kyoto City Senior High School of Art, Matsumoto Arigasaki High School <br> 
+                  <u>Parents:</u> Shigeru Kusama, Kamon Okamura                                                                          <br>  
+                  <u>Awards:</u> Praemium Imperiale, Person of Cultural Merit, Asahi Prize                                     <br>
+        
+             </div>
+            </div> 
+       
+         </div> 
+
+           
+           
+        <div class="container">
+            <div class="text">
+              <h3>YAYOI's ART-GALLERY</h3>
+              <p>Art is easy when you don't know how, but vary difficult when you do, and then understand tha art is a poem without words.</p>
+            </div>
+            <div class="gallery">             
+                <div class="box row-2" style="background-image: url(./yayoi-kusama/scmj-UUXN8wWu7VI-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./yayoi-kusama/junhyung-park-dOYQrLqW0aI-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./yayoi-kusama/rach-teo-9gNg24qbC_8-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./yayoi-kusama/paul-hanaoka-uc0_iFmcxUI-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./yayoi-kusama/ira-ispita-roy-l0KyyVchiZk-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./yayoi-kusama/bradrey-nassel-xg7ZjsK24Q4-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./yayoi-kusama/simona-sergi-OfjOuw_prPg-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./yayoi-kusama/data-lore-HiEYi_iivkE-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./yayoi-kusama/rach-teo-9Qk-HIwoTl8-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./yayoi-kusama/diogo-lemos-Twskh4Mk538-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./yayoi-kusama/rach-teo-9gNg24qbC_8-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./yayoi-kusama/rach-teo-9MWgAEOH6E8-unsplash.jpg)"></div>
+            </div>
+
+            <div class="pop-up">
+                <span>&times;</span>
+            </div>
+        </div>
+        
+    </body>
+</html>

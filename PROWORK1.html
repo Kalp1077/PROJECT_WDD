@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>jackson pollock</title>
+        <link rel="stylesheet" href="PROWORK1.css">
+
+        <script>
+
+            window.onload=function()
+            {
+                document.querySelectorAll('.gallery .box').forEach(box =>{
+                    box.onclick = () =>{
+                        document.querySelector('.pop-up').style.display = 'block';
+                        document.querySelector('.pop-up').style.backgroundImage=box.style.backgroundImage;
+                    }
+                });
+
+                document.querySelector('.pop-up span').onclick = () =>{
+                       document.querySelector('.pop-up').style.display = 'none';
+                }
+            }
+        </script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="Home.html #path">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container-1">   
+             <div class="rec">  
+                   <img src="1jackson-pollock\jackson-pollock.jpg"/><hr>
+                  <h1>Jackson Pollock</h1>
+            </div>
+        
+            <div class="right-box">
+             <div class="right-side">
+               <p><u>Born:</u> 28 January 1912, Cody, Wyoming, United States                              <br>
+                  <u>Influenced:</u> Helen Frankenthaler, Frank Stella, Robert Ryman                      <br>
+                  <u>Influenced by:</u> Pablo Picasso, Joan Miró, Max Ernst                               <br>  
+                  <u>Place of burial:</u> Green River Cemetery, Springs, New York,<br> United States      <br>
+                  <u>Education:</u> The Art Students League of New York,<br> Manual Arts Sr High School   <br>
+        
+             </div>
+            </div> 
+       
+         </div> 
+
+           
+           
+        <div class="container">
+            <div class="text">
+              <h3>JACKSON's ART-GALLERY</h3>
+              <p>The Art is not only a mirror, reflector or looking glass help up to reality, but a hammer with which to shape it.</p>
+            </div>
+            <div class="gallery">             
+                <div class="box row-2" style="background-image: url(./1jackson-pollock/british-library-4_bL4RzsEEY-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./1jackson-pollock/istockphoto-859584754-612x612.webp)"></div>
+                <div class="box col-2" style="background-image: url(./1jackson-pollock/istockphoto-96004450-612x612.webp)"></div>
+                <div class="box row-2" style="background-image: url(./1jackson-pollock/jene-stephaniuk-Yc1Qi2e1MDs-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./1jackson-pollock/andrew-neel-a_K7R1kugUE-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./1jackson-pollock/istockphoto-463406341-612x612.webp)"></div>
+                <div class="box row-2" style="background-image: url(./1jackson-pollock/the-new-york-public-library-HiCwYW7DycM-unsplash.jpg)"></div>
+                <div class="box row-2" style="background-image: url(./1jackson-pollock/paul-blenkhorn-2rC1FL6aC80-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./1jackson-pollock/istockphoto-114380408-612x612.webp)"></div>
+                <div class="box row-2" style="background-image: url(./1jackson-pollock/mcgill-library-OEUt6rHkXgY-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./1jackson-pollock/olivia-brewer-MBvYL_zcyGA-unsplash.jpg)"></div>
+                <div class="box col-2" style="background-image: url(./1jackson-pollock/british-library-hB2Y6UZ-XOQ-unsplash.jpg)"></div>
+            </div>
+
+            <div class="pop-up">
+                <span>&times;</span>
+            </div>
+        </div>
+        
+    </body>
+</html>

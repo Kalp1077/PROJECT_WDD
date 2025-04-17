@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background:  #183D3D;
+    display: flex;
+    flex-direction: column;
+}
+
+p
+{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+header
+{
+    background-color: #FBF3B9;
+    height: 54.5px; 
+    border-radius: 20px;
+    box-shadow: 0 0 8px #9EC6F3;
+}
+
+nav ul  
+{
+    display: flex;
+    justify-content: right;
+}
+
+nav li 
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav a:hover
+{
+    color: #d7663c; 
+}   
+
+.container-1
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width: 750px)
+{
+    header 
+    {
+        height: 18.5vh;
+    }
+
+    nav ul
+    {
+        display: block;
+    }
+
+    nav ul li
+    {
+        justify-self: center;
+        line-height: 25px;
+    }
+
+    .container-1
+    {
+        display: block;
+    }
+
+    .rec
+    {
+        justify-self: center;
+    }
+
+    .right-box 
+    {
+        justify-self: center;
+    }
+}
+
+.rec
+{
+    align-self: center;
+    height: 58vh;
+    width: 20vw;
+    border: 2px solid white;
+    box-shadow: 0 0 7px white;
+    background-color: rgb(68, 63, 63);
+    margin-top: 5%;
+}
+
+img
+{
+    height: 80%;
+    width:100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0 0 5px white;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+img:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px white;
+}
+
+.right-box
+{
+    width: 42%;
+    height: 70%;
+    margin-top: 10%;
+}
+
+.right-side p
+{
+    padding-top: 18px; 
+    padding-bottom: 18px;  
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.right-side p:hover
+{
+   transform: scale(0.9);
+   box-shadow: 0 0 7px white;
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+}  
+
+h3
+{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p
+{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+.container
+{
+    margin-top: 50px;
+    height: 100vh;
+    align-self: center;
+}
+
+.gallery
+{
+    display: grid;
+    gap: 6px;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: 120px;
+}
+
+.box
+{
+    background-size: cover;
+    background-position: top;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-blend-mode: difference;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+    border-radius: 5px;
+    
+}
+
+.box:hover
+{
+   background-position: center;
+   transform: scale(1.10);
+   box-shadow: 0 0 30px white;
+}
+
+.row-2
+{
+    grid-row: span 2;
+}
+
+ .col-2
+{
+    grid-column: span 2;
+} 
+
+.container .pop-up span
+{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.container .pop-up 
+{
+    display: none;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    box-shadow: 0 0 5px white; 
+    cursor: pointer;
+    position: fixed;
+    height: 60vh;
+    width: 30vw;
+}

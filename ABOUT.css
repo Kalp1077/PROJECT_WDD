@@ -1,0 +1,303 @@
+*
+{
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #183D3D;
+}
+
+header
+{
+    background-color: #FBF3B9;
+    height: 54.5px; 
+    border-radius: 20px;
+    box-shadow: 0 0 8px #9EC6F3;
+}
+
+nav ul  
+{
+    display: flex;
+    justify-content: right;
+}
+
+nav li 
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    list-style: none;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav a:hover
+{
+    color: #d7663c; 
+} 
+
+h1
+{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1:hover
+{
+    color: #FBF3B9;
+}
+
+.text
+{
+    color: rgb(225, 213, 213);
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 15px;
+}
+
+.aim
+{
+    color: #FBF3B9;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.aim1
+{
+    color: rgb(225, 213, 213);
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.Developers
+{
+    color: #FBF3B9;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.Developers1
+{
+    color: rgb(225, 213, 213);
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.Developers1:hover
+{
+    color: #9e9499;
+    width: 14vw;
+}
+
+.Developers2
+{
+    color: rgb(225, 213, 213);
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.Developers2:hover
+{
+    color: #9e9499;
+    width: 18vw;
+}
+
+.Developers3
+{
+    color: rgb(225, 213, 213);
+    font-size: 30px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.Developers3:hover
+{
+    color: #9e9499;
+    width: 21.5vw;
+}
+
+.line
+{
+    background-color: #D6D5A8;
+    height: 2px;
+    box-shadow: 0 0 20px white;
+    margin-top: 25px;
+} 
+
+.t1logo
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.t1
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.harsak img
+{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #D6D5A8;
+    cursor: pointer;
+    transition: all 1.5s ease-in;
+}
+
+.harsak img:hover
+{
+    transform: rotate(360deg);
+}
+
+footer
+{
+    cursor: pointer;
+    height: 50vh;
+    background: linear-gradient(to bottom,#FBF3B9,#9EC6F3); 
+    box-shadow: 0 0 13px #9EC6F3;  
+}
+
+.end
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 40px;
+}
+
+.end img
+{
+    height: 5vh;
+    width: 2.8vw;
+    border-radius: 5px;
+    transition: all 1.5s ease-in;
+}
+
+.end img:hover
+{
+    transform: rotate(360deg);
+}
+
+.t3
+{
+   text-align: center;
+   color: #063347;
+   font-size: 30px;
+   font-weight: bold;
+   padding-top: 25px;
+}
+
+.t4
+{
+    text-align: center;
+    color: #1a323c;
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.mail img
+{
+    height: 5vh;
+    width:2.8vw;
+    border-radius: 5px; 
+    transition: all 1.5s ease-in;
+}
+
+.mail img:hover
+{
+    transform: rotate(360deg);
+}
+
+.t5
+{
+    padding-top: 2px;
+    padding-left: 7px;
+    color: red;
+    font-size: 20px;
+}
+
+.mail
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.contact img
+{
+    height: 5vh;
+    width:2.8vw;
+    border-radius: 5px; 
+    margin-left: 15px; 
+    transition: all 1.5s ease-in;
+}
+
+.contact img:hover
+{
+    transform: rotate(360deg);
+}
+
+.t6
+{
+    padding-top: 2px;
+    padding-left: 7px;
+    color: black;
+    font-size: 20px;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.t7
+{
+    color: #1a323c;
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.team
+{
+    color: #d22e7b;
+}
+
+.img img
+{
+    height: 9vh;
+    width:3.5vw;
+    padding-left: 10px;
+    padding-top: 23px;
+}
